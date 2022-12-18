@@ -7,13 +7,11 @@ Material complementario **estudio de la expresion genetica del cancer renal para
 
 > Titulación: Master Universitario en ciencia de datos (UOC)
 
-Introducción
+Descripción del repositorio
 ---
 
-Este repositorio contiene la información complementaria de código desarrollado para el TFM
+Este repositorio contiene el archivo .Rmd generado con el código en R necesario para la realización de la metodología del TFM, así como los resultados obtenidos.
 
-Estructura del proyecto
----
+NOTA: La carpeta no posee los datasets por ser muy pesados, pero dentro del .Rmd se encuentran los chuncks que permiten la descarga desde el propio fichero al lanzarlo (los chunks están deshabilitados ya que la descarga se realizó una única vez y a partir de ahí se usaron los .csv descargados, pero se pueden habilitar en caso de que se quieran descargar los archivos
 
-- `informe`. En este fichero encontramos el informe en R desarrollado para el TFM
-- `dataset`. Conjunto de datos descargados del TCGA y que es la base para el estudio realizado
+
